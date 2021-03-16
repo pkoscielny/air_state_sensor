@@ -11,14 +11,15 @@
 #include <ESP8266HTTPClient.h>
 #include <DHT.h>
 
+// WiFi settings.
 const char* ssid   = "****";
 const char* passwd = "****";
 String iot_server_url = "http://your_zeroiot_server_address:3000/air_state"; // zeroiot
 String device_id = "esp8266_wemos_2";
 String location = "kitchen";
 
-#define DHTTYPE DHT21 
-DHT dht(D2, DHTTYPE);
+// Sensor settings.
+DHT dht(D2, DHT21);
 
 // For proper working section for avoiding data contamination
 // I need remember previous measurement results.

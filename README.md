@@ -7,3 +7,6 @@ The measured parameters are sent to the ZeroIoT server once per minute.
 ### List of components
 * ESP8266 WeMos D1 mini board
 * DHT21 temperature and humidity sensor (AM2301)
+
+### Breadboard circuit diagram
+![circuit](/img/air_state_sensor.png)
