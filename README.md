@@ -9,4 +9,4 @@ The measured parameters are sent to the ZeroIoT server once per minute.
 * DHT21 temperature and humidity sensor (AM2301)
 
 ### Breadboard circuit diagram
-![circuit](/img/air_state_sensor.png)
+![circuit](/fz/air_state_sensor.png)
